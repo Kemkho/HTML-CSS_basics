@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    /* ორმაგ ჩარჩოს აშორებს და ერთიეანებს ეს კოლაფსი */
+    }
+
+.style1 tr td {
+    border: 2px solid red;
+}
+.style1 tr th {
+    border: 2px solid red;
+    background-color: red;
+    color: aliceblue;
+}
+
+.style2 {
+    background-color: antiquewhite;
+}
+
+.style2 tr {
+    border-bottom: 1px solid rgb(142, 137, 121);
+}
+
+.style2 tr th {
+    background-color: brown;
+}
+
+/* ზოლიანი თეიბლი */
+
+.style3 {
+}
+/* table tr:nth-child(2) {
+    background-color: gray;
+} tr-ს შორის მერამდენეს მინდა რომ მივანიჭო სტილი (იგივე td-ზეც  or odd and even*/
